@@ -42,12 +42,5 @@ public class mahasiswa extends manusia{
 
     public void setAlamat(String alamat) {
         this.alamat = alamat;
-    }
-    
-    void result(){
-        System.out.println("NIM    : " + nim);
-        System.out.println("Nama   : " + nama); //variabel dari class manusia tinggal tulis gausa inisialisasi objek lagi
-        System.out.println("Umur   : " + umur); //variabel dari class manusia tinggal tulis gausa inisialisasi objek lagi
-        System.out.println("Alamat : " + alamat); //variabel dari class manusia tinggal tulis gausa inisialisasi objek lagi
-    }   
+    } 
 }
